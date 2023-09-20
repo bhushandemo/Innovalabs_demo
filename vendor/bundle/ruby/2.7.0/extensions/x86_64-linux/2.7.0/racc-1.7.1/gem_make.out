@@ -1,0 +1,20 @@
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+/home/bhushan/.rvm/rubies/ruby-2.7.1/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-mnknuo sitelibdir\=./.gem.20230920-4121-mnknuo clean
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-mnknuo sitelibdir\=./.gem.20230920-4121-mnknuo
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-mnknuo sitelibdir\=./.gem.20230920-4121-mnknuo install
+/usr/bin/install -m 0755 cparse.so ./.gem.20230920-4121-mnknuo/racc
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-mnknuo sitelibdir\=./.gem.20230920-4121-mnknuo clean

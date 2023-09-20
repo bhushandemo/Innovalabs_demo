@@ -1,0 +1,22 @@
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+/home/bhushan/.rvm/rubies/ruby-2.7.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-1knqzxm sitelibdir\=./.gem.20230920-4121-1knqzxm clean
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-1knqzxm sitelibdir\=./.gem.20230920-4121-1knqzxm
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-1knqzxm sitelibdir\=./.gem.20230920-4121-1knqzxm install
+/usr/bin/install -m 0755 byebug.so ./.gem.20230920-4121-1knqzxm/byebug
+
+current directory: /home/bhushan/Documents/sites/Demo_task/vendor/bundle/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230920-4121-1knqzxm sitelibdir\=./.gem.20230920-4121-1knqzxm clean

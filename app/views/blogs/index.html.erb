@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Blogs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th>Author </th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @blogs.each do |book| %>
+      <tr>
+        <td><%= book.title %></td>
+        <td><%= book.content %></td>
+        <td><%= book.user.username%> </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= button_to "Sign Out", logout_path, method: :delete, class: "nav-link" %>
